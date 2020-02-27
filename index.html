@@ -17,6 +17,12 @@
         font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
         font-weight: bold;
       }
+
+      #bookshelf,
+      td {
+        border-color: rgb(119, 136, 153);
+        border: solid 1px;
+      }
     </style>
   </head>
 
@@ -33,10 +39,18 @@
     <!-- add a shop image, but now it is too big, let's see how to resize it later-->
     <!-- <img src="shop1.jpg"> -->
 
-    <p class="book">《你的身体， 是一切美好的开始》</p>
-    <a href="YourBody.azw3"> 下载到Kindle</a>
-    <p class="book">《Why We Sleep》</p>
-    <a href="WhyWeSleep.mobi"> 下载到Kindle</a>
+    <table id="bookshelf">
+      <tr>
+        <td>
+          <p class="book">《你的身体， 是一切美好的开始》</p>
+          <a href="YourBody.azw3"> 下载到Kindle</a>
+        </td>
+        <td>
+          <p class="book">《Why We Sleep》</p>
+          <a href="WhyWeSleep.mobi"> 下载到Kindle</a>
+        </td>
+      </tr>
+    </table>
 
     <h2>污 - Metal Hands 前门 $8.08</h2>
     <p>A smooth, mild blend of coffees from Mexico, Bolivia and Guatemala</p>
